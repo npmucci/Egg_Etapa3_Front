@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(23, 147, 164, 0.7); /* Color con transparencia */
+    padding: 0;
+}
+
+header {
+    background-color: rgba(93, 34, 100, 0.7); /* Color con transparencia */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.content {
+    background-color: rgba(23, 147, 164, 0.7); /* Color con transparencia */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+p {
+    margin: 5px 0;
+    
+}
+.ejercicio{
+    text-align: justify;
+}
+
+.lista {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    align-items: center;
+}
+
+ul li {
+    color: black;
+    padding: 5px 0;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(93, 34, 100, 0.5); /* Color con transparencia */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(93, 34, 100, 0.8); /* Color con transparencia */
+    transform: scale(1.1);
+}
+
+.resaltar {
+    background-color: yellow;
+}
+
+#pintar,#despintar, #apretame {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#formulario {
+    margin: auto;
+    width: fit-content;
+}
+
+.cuadro_resultado {
+    padding: 10px;
+    display: inline;
+    border: 3px solid;
+    border-color: #ff6347;
+}
+
+.centered-form {
+    align-items: center;
+}
+
+.centered-form label,
+.centered-form input {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(93, 34, 100, 0.7); /* Color con transparencia */
+    text-align: center;
+    padding: 1em 0;
+}
